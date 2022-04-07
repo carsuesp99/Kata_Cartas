@@ -11,7 +11,7 @@ public class main {
 
 
         for(int i=0; i< pack1.length; i++){
-            cards.calculateScore(new int[]{pack1[i]}, new int[]{pack2[i]});
+            System.out.println(cards.calculateScore(new int[]{pack1[i]}, new int[]{pack2[i]}));
         }
 
     }
